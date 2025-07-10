@@ -3,6 +3,7 @@
 **LFU** is a cache eviction strategy that removes the least frequently accessed items, rather than just the oldest unused ones.
 
 LFU is effective in systems where long-term data popularity matters. For example, in an e-commerce app, frequently viewed or purchased products stay in cache, while rarely accessed items get removed.  
+
 Although LFU is more complex because it requires tracking access counts, it typically results in a lower cache miss rate over time.
 
 ---
